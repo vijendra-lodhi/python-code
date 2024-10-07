@@ -1,6 +1,6 @@
 # python basic codes:-
 ==========================
-
+<pre>
 # a program to find perfect number
 temp=0  
 num=int(input("enter the number  : "))  
@@ -70,7 +70,7 @@ if __name__ == '__main__':
     names = sorted([name for name, score in student if score == second_lowest])  
     for name in names:  
         print(name)
-
+</pre>
 
 
 
