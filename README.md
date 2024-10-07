@@ -1,7 +1,8 @@
 # python basic codes:-
 ==========================
 
-# a program to find perfect number<pre>
+# a program to find perfect numbe
+<pre>
 temp=0  
 num=int(input("enter the number  : "))  
 for i in range(1,num//2+1):  
@@ -10,11 +11,13 @@ for i in range(1,num//2+1):
 if(temp==num):  
     print("the number is perfect ")  
 else:  
-    print("not perfect")</pre>
+    print("not perfect")
+</pre>
 
 
 
-# armstrong number  :-<pre>
+# armstrong number  :-
+<pre>
 size=0  
 num=int(input("enter the number  : "))  
 data=user=num  
@@ -31,16 +34,20 @@ for i in range(1,size+1):
 if(num==user):  
     print("armstrong number")  
 else:  
-    print("not armstrong")  </pre>
+    print("not armstrong")
+</pre>
     
-# reverse string without change in words:-<pre>
+# reverse string without change in words:-
+<pre>
 a=input("enter the string to reverse : ")  
 data=a.split()  
 new = data[ : : -1]  
 result=" ".join(new)  
-print(result)  </pre>
+print(result)
+</pre>
 
-# program to count vowel and consonents in string<pre>
+# program to count vowel and consonents in string
+<pre>
 a=input("enter the string : ")  
 vow=0  
 con=0  
@@ -55,9 +62,11 @@ for i in data:
         con=con+1  
 print("the num of vowel is ", vow)  
 print("the num of cons is ", con)  
-print("the num of space is ", sp)</pre>
+print("the num of space is ", sp)
+</pre>
 
-# python list comprehension<pre>
+# python list comprehension
+<pre>
 
 if __name__ == '__main__':  
     student = []  
