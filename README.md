@@ -55,4 +55,22 @@ for i in data:
         con=con+1  
 print("the num of vowel is ", vow)  
 print("the num of cons is ", con)  
-print("the num of space is ", sp)  
+print("the num of space is ", sp)
+
+# python list comprehension
+
+if __name__ == '__main__':
+    student = []
+    for _ in range(int(input("Enter number of students: "))):
+        name = input("Enter name: ")
+        score = float(input("Enter score: "))
+        student.append([name, score])
+    value = sorted(set([score for name, score in student]))
+    second_lowest = value[1]
+    names = sorted([name for name, score in student if score == second_lowest])
+    for name in names:
+        print(name)
+
+
+
+
